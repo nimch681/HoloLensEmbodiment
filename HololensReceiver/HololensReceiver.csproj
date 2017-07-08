@@ -81,15 +81,30 @@
     <Compile Include="Assets\ActionManager.cs" />
     <Compile Include="Assets\ElemRenderer.cs" />
     <Compile Include="Assets\GestureManager.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\AniCrane\AnimationSpeed.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\Fitbox\Fitbox.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\Fitbox\Interpolator.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\Spatial Mapping\SpatialMapping.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\Underworld\UnderworldReset.cs" />
+    <Compile Include="Assets\HololenTut\Assets\Holograms\Support\Underworld\UnderworldSound.cs" />
     <Compile Include="Assets\KeyboardInput.cs" />
     <Compile Include="Assets\ObjectManipulator.cs" />
     <Compile Include="Assets\PointCloudReceiver.cs" />
     <Compile Include="Assets\PointCloudRenderer.cs" />
     <Compile Include="Assets\RecenterTest.cs" />
+    <Compile Include="Assets\ResetWorld.cs" />
+    <Compile Include="Assets\Scripts\GazeGestureManager.cs" />
+    <Compile Include="Assets\Scripts\SpeechManager.cs" />
+    <Compile Include="Assets\Scripts\Utils.cs" />
+    <Compile Include="Assets\Scripts\WorldCursor.cs" />
     <Compile Include="Assets\Singleton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GS Billboard.shader" />
+    <None Include="Assets\HololenTut\Assets\Resources\DebugNormals.shader" />
+    <None Include="Assets\HololenTut\Assets\Resources\Occlusion.shader" />
+    <None Include="Assets\HololenTut\Assets\Resources\Wireframe.shader" />
+    <None Include="Assets\HololenTut\ProjectSettings\ProjectVersion.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
