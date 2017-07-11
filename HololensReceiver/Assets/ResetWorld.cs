@@ -7,8 +7,9 @@ public class ResetWorld : MonoBehaviour {
 
     public void OnSelect()
     {
-        GameObject pointRenderer = GameObject.Find("PointCloudRenderer");
-        Destroy(pointRenderer);
-        SceneManager.LoadScene("scene");
+        UnityEngine.VR.InputTracking.Recenter();
+        //GameObject pointRenderer = GameObject.Find("PointCloudRenderer");
+        // Destroy(pointRenderer);
+        // SceneManager.LoadScene("scene");
     }
 }

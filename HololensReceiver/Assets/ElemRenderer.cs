@@ -36,7 +36,7 @@ public class ElemRenderer : MonoBehaviour
         {
             int ptIdx = 3 * (nPointsRendered + i);
 
-            points[i] = new Vector3(arrVertices[ptIdx + 0], arrVertices[ptIdx + 1], -arrVertices[ptIdx + 2]);
+            points[i] = new Vector3(arrVertices[ptIdx + 0], arrVertices[ptIdx + 1], arrVertices[ptIdx + 2]);
             indices[i] = i;
             colors[i] = new Color((float)arrColors[ptIdx + 0] / 256.0f, (float)arrColors[ptIdx + 1] / 256.0f, (float)arrColors[ptIdx + 2] / 256.0f, 1.0f);         
         }
