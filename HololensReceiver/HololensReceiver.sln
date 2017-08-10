@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HololensReceiver", "HololensReceiver.csproj", "{FD6287C6-E49F-5A57-D7FF-8765BCF1019E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HololensReceiver.Editor", "HololensReceiver.Editor.csproj", "{5A77E065-1E75-FBB8-9643-8BE23C3C1E38}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{FD6287C6-E49F-5A57-D7FF-8765BCF1019E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD6287C6-E49F-5A57-D7FF-8765BCF1019E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD6287C6-E49F-5A57-D7FF-8765BCF1019E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5A77E065-1E75-FBB8-9643-8BE23C3C1E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A77E065-1E75-FBB8-9643-8BE23C3C1E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A77E065-1E75-FBB8-9643-8BE23C3C1E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A77E065-1E75-FBB8-9643-8BE23C3C1E38}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

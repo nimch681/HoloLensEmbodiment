@@ -216,12 +216,12 @@
 
   <ItemGroup>
     <ProjectReference Include="C:\Users\nimch681\Documents\VirtualMirror\HoloLensEmbodiment-master\HololensReceiver\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{9eba00e4-f787-4caf-97ef-bbf1406525fe}</Project>
+      <Project>{a844ec0f-e97d-4f15-ba42-1b3152265039}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="C:\Users\nimch681\Documents\VirtualMirror\HoloLensEmbodiment-master\HololensReceiver\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{c1e054cb-7e6b-49a3-944f-35b7886500cf}</Project>
+      <Project>{373aab19-be46-49c4-949b-19a5ea9b6fff}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>
